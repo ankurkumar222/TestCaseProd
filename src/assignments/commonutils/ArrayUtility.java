@@ -2,11 +2,9 @@ package assignments.commonutils;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Scanner;
-import util.other.binaryTreeUtil.BinaryTreeNode;
 
 import util.logs.writer.LogWriter;
+import util.other.binaryTreeUtil.BinaryTreeNode;
 
 public class ArrayUtility {
 	public static void print(String ans, String filePath) {
