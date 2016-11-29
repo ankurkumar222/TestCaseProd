@@ -1,16 +1,16 @@
-package assignments.questions.array2d.spiral_print;
+package assignments.questions;
 
 import assignments.commonutils.ArrayUtility;
-
 import util.stats.Stats;
 
 public class Runner {
+
 	public static void test(int[][] arr, String filePath) {
 		Solution.result = new StringBuilder("");
 		Stats stats = Stats.getStatsInstance();
 		stats.startStat();
-		Solution.spiralPrint(arr);
+		Solution.print2DArray(arr);
 		stats.endStat();
-		ArrayUtility.print(Solution.result.toString(),filePath);
+		ArrayUtility.print(Solution.result + "", filePath);
 	}
 }
